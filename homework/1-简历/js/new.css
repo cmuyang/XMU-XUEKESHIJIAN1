@@ -1,0 +1,104 @@
+body{
+	background-color: rgba(170, 170, 255, 0.2);	
+	line-height: 0.8cm;
+}
+
+.header {
+	color: #d8daff;
+	font-size: 1cm;
+	background-color: #55557f;
+	padding: 40px;
+	margin: 0.1cm;
+	text-align: center;
+}
+.center{
+	text-align: center;
+}
+img{
+	text-align: center;
+	margin: 1cm;
+}
+hr {  
+  border-color: #55007f;  
+  border-width: 1px;  
+  border-style: solid;  
+}
+
+#content{
+	size: 0cm;
+	color: rgba(85, 85, 127, 0.8);
+	align-items: center;
+	margin: 5%;
+}
+	
+
+h1.heads{
+	color: #62638a;
+	padding: 0.1cm;
+}
+hr.line{
+	color: cadetblue;
+}
+
+a.topnav {  
+  display: block;
+  background-color: rgba(85, 85, 127, 0.3);	
+  color: #d8d4ff;  
+  text-align: center;  
+  padding: 2px 30px; 
+  text-decoration: none;  
+}
+table {    
+ margin: 40px;  
+ height: 30px;    
+ padding: 20px;    
+ text-align: left;    
+ table-layout: auto; /* 列宽自动根据内容调整 */    
+}
+td, th {  
+  width: 200px; /* 列宽自动根据内容调整 */    
+}
+/* 创建三个相等的列 */
+.column {
+  float: left;
+  color: #55557f;
+  width: 50%;
+}
+.column img{
+	float: right;
+	width: 50%;
+}
+ 
+.footer {
+  background-color: #55557f;
+  text-align: center;
+  padding: 10px;
+}
+.topnav {	/*设置标题颜色*/
+  overflow: hidden;
+  background-color: #55557f;
+}
+/* 移除下划线 */  
+a {  
+    text-decoration: none;  
+}  
+  
+/* 未访问链接 */  
+a:link {  
+    color: #55007f;  
+}  
+  
+/* 已访问链接 */  
+a:visited {  
+    color: #00007f;  
+}  
+  
+/* 鼠标移动到链接上 */  
+a:hover {  
+    color: #55aaff;  
+}  
+  
+/* 鼠标点击时 */  
+a:active {  
+    color: #0000FF;  
+}

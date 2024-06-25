@@ -1,0 +1,58 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/error/404",
+    "pages/found/found",
+    "pages/txl/txl",
+    "pages/mine/mine"
+  ],
+  "subPackages": [
+    {
+      "root": "subpages",
+      "pages": [
+        "news/news",
+        "chat/chat",
+        "chat2/chat2"
+      ]
+    }
+  ],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "uni-app",
+    "navigationBarBackgroundColor": "#F8F8F8",
+    "backgroundColor": "#F8F8F8"
+  },
+  "tabBar": {
+    "color": "#7A7E83",
+    "selectedColor": "#3cc51f",
+    "borderStyle": "black",
+    "backgroundColor": "#ffffff",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "iconPath": "static/logo.png",
+        "selectedIconPath": "static/chat.png",
+        "text": "微信"
+      },
+      {
+        "pagePath": "pages/found/found",
+        "iconPath": "static/logo.png",
+        "selectedIconPath": "static/chat.png",
+        "text": "发现"
+      },
+      {
+        "pagePath": "pages/txl/txl",
+        "iconPath": "static/logo.png",
+        "selectedIconPath": "static/chat.png",
+        "text": "通讯录"
+      },
+      {
+        "pagePath": "pages/mine/mine",
+        "iconPath": "static/logo.png",
+        "selectedIconPath": "static/chat.png",
+        "text": "我"
+      }
+    ]
+  },
+  "usingComponents": {}
+}

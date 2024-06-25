@@ -1,0 +1,106 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/index/index", //最后一个vue缺省
+			"style": {
+				"navigationBarTitleText": "微信", //标题文本
+				"enablePullDownRefresh": true
+
+			}
+		},{
+
+			"path": "pages/error/404",
+			"style": {
+				"navigationBarTitleText": "uni-app-404"
+			}
+
+		},
+		 {
+			"path": "pages/found/found",
+			"style": {
+				"navigationBarTitleText": "发现",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+
+			"path": "pages/txl/txl",
+			"style": {
+				"navigationBarTitleText": "通讯录",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/mine/mine",
+			"style": {
+				"navigationBarTitleText": "我",
+				"enablePullDownRefresh": false
+			}
+		}
+
+	],
+	"subPackages": [{
+		"root": "subpages",
+		"pages": [{
+				"path": "news/news",
+				"style": {
+					"navigationBarTitleText": "新闻中心",
+					"enablePullDownRefresh": false
+				}
+			},
+			{
+				"path": "chat/chat",
+				"style": {
+					"navigationBarTitleText": "与小姐姐聊天",
+					"enablePullDownRefresh": false
+				}
+			},
+			{
+				"path": "chat2/chat2",
+				"style": {
+					"navigationBarTitleText": "聊天",
+					"enablePullDownRefresh": false
+				}
+			}
+		]
+
+	}],
+	"globalStyle": { //全局外观设置（全部页面的类似之处）
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "uni-app", //缺省导航栏
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8"
+	},
+	"tabBar": {
+		"color": "#7A7E83",
+		"selectedColor": "#3cc51f",
+		"borderStyle": "black",
+		"backgroundColor": "#ffffff",
+		"list": [{
+				"pagePath": "pages/index/index",
+				"iconPath": "static/logo.png",
+				"selectedIconPath": "static/chat.png",
+				"text": "微信"
+			},
+			{
+				"pagePath": "pages/found/found",
+				"iconPath": "static/logo.png",
+				"selectedIconPath": "static/chat.png",
+				"text": "发现"
+			},
+			{
+				"pagePath": "pages/txl/txl",
+				"iconPath": "static/logo.png",
+				"selectedIconPath": "static/chat.png",
+				"text": "通讯录"
+			},
+			{
+				"pagePath": "pages/mine/mine",
+				"iconPath": "static/logo.png",
+				"selectedIconPath": "static/chat.png",
+				"text": "我"
+			}
+		]
+	},
+	"uniIdRouter": {} //路由设置
+}
