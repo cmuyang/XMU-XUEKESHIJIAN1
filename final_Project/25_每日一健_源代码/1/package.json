@@ -1,0 +1,23 @@
+{
+    "id": "jp-timePicker",
+    "name": "日期选择器 时间选择器 年月日",
+    "displayName": "日期选择器 时间选择器 年月日",
+    "version": "2.0",
+    "description": "日期选择器 时间选择器 年月日",
+    "keywords": [
+        "日期选择器",
+        "时间选择器",
+        "年月日"
+    ],
+    "dcloudext": {
+        "category": [
+            "前端组件",
+            "通用组件"
+        ]
+    },
+    "dependencies": {
+        "chart.js": "^4.4.1",
+        "uview-ui": "^2.0.36",
+        "vue-chartjs": "^5.3.0"
+    }
+}

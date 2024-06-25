@@ -1,0 +1,42 @@
+{
+	"bsonType": "object",
+	"required": ["userId", "physicalDate", "physicalLong", "physicalType"],
+	"permission": {
+		"read": "auth.uid == doc.userId",
+		"create": "auth.uid != null && 'signIn' in action",
+		"update": true,
+		"delete": true
+	},
+	"properties": {
+		"_id": {
+			"description": "ID，系统自动生成"
+		},
+		"userId":{
+			"foreignKey": "uni-id-users._id",
+			"forceDefaultValue":{
+				"$env":"uid"
+			}
+		},
+		"physicalDate":{
+			"bsonType":"string",
+			"description":"锻炼的日期"
+		},
+		"physicalLong":{
+			"bsonType":"int",
+			"description":"锻炼时长"
+		},
+		"physicalType":{
+			"bsonType":"string",
+			"description":"锻炼类型"
+		},
+		"physicalXind":{
+			"bsonType":"string",
+			"description":"锻炼心得"
+		},
+		"userName": {
+		  "bsonType": "string",
+		  "description": "用户名"
+		}
+
+	}
+}

@@ -1,0 +1,31 @@
+
+.input-container{
+	display: flex;
+	align-items: center;
+	padding: 20rpx ;
+}
+.label{
+	width: 30%;
+	font-size: 30rpx;
+	font-weight: bold;
+}
+.input-box{
+	width: 400rpx;
+	height: 60rpx;
+	border-radius: 20rpx;
+}
+.save-btn{
+	width: 80%;
+	margin: 100rpx auto;
+}
+.savedData-container{
+	padding: 20rpx;
+}
+.savedData-item{
+	margin: 20rpx 0;
+	border: 1px solid #f4f4f4;
+	border-radius: 20rpx;
+	padding: 20rpx;
+	background-color: #f3f4f6;
+}
+

@@ -1,0 +1,51 @@
+
+.content.data-v-3da711c6 {
+  padding: 10rpx 2%;
+  width: 96%;
+  flex-wrap: wrap;
+}
+.title.data-v-3da711c6 {
+  line-height: 2em;
+  font-weight: 700;
+  font-size: 38rpx;
+}
+.image-container ._img.data-v-3da711c6 {
+  width: 100%; /* 图片宽度占满父容器 */
+  height: auto; /* 根据宽度等比例缩放高度 */
+}
+.text1.data-v-3da711c6{
+	color: #000;
+}
+.text3.data-v-3da711c6{
+	color: black;
+	font-weight: bold;
+}
+.img.data-v-3da711c6{
+	width:50px;
+		height:50px;
+}
+.user-avatar.data-v-3da711c6 {
+  width: 60rpx;
+  height: 60rpx;
+  border-radius: 50%;
+  margin-right: 20rpx;
+}
+.comment-text.data-v-3da711c6 {
+  color: red;
+  font-weight: bold;
+  text-align: center;
+  flex: 1;
+}
+.comment-status.data-v-3da711c6 {
+  color: #e6a23c;
+}
+.comment-time.data-v-3da711c6 {
+  color: #999;
+  font-size: 24rpx;
+}
+.contentababsss.data-v-3da711c6{
+	color: #999;
+	font-size: 30rpx;
+}
+
+

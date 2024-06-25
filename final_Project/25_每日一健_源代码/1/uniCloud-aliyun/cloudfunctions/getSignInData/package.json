@@ -1,0 +1,7 @@
+{
+  "name": "getSignInData",
+  "dependencies": {},
+  "extensions": {
+    "uni-cloud-jql": {}
+  }
+}

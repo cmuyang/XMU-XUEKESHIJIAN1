@@ -1,0 +1,7 @@
+{
+  "name": "physical",
+  "dependencies": {},
+  "extensions": {
+    "uni-cloud-jql": {}
+  }
+}
